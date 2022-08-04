@@ -3,7 +3,7 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Services</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Recommendations</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -19,6 +19,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="../assets/img/img1.png" alt="..." />
+                            <h3>3 months exercise plan</h3>
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -28,6 +29,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="../assets/img/img2.png" alt="..." />
+                            <h3>Meditation plan</h3>
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -37,6 +39,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="../assets/img/img3.png" alt="..." />
+                            <h3>6 months Exercise plan</h3>
                         </div>
                     </div>
                     <!-- Portfolio Item 4-->
@@ -46,6 +49,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="../assets/img/img4.png" alt="..." />
+                            <h3>Ayurveda Plan</h3>
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
@@ -55,6 +59,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="../assets/img/img5.png" alt="..." />
+                            <h3>UHC curated Plan</h3>
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
@@ -64,6 +69,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="../assets/img/img6.png" alt="..." />
+                            <h3>Doctor's Plan</h3>
                         </div>
                     </div>
                 </div>
@@ -81,7 +87,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">3 months exercise plan</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -95,9 +101,20 @@
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
+                                    </button>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <button class="btn btn-primary" >
+                                        <i class="fas fa-check fa-fw"></i>
+                                        Show Plan
                                     </button>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    <a style="color:blue" href="https://www.calendar.google.com/" target="_blank">Add to calendar</a>
                                 </div>
                             </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <PlanList></PlanList>
+                                </div>
+                            </div>    
                         </div>
                     </div>
                 </div>
@@ -113,7 +130,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Meditation plan</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -145,7 +162,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">6 months Exercise plan</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -177,7 +194,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ayurveda Plan</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -209,7 +226,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">UHC curated Plan</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -241,7 +258,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Doctor's Plan</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -264,3 +281,17 @@
             </div>
         </div>	
 </template>
+
+<script>
+import PlanList from '../components/PlanList.vue'
+
+export default {
+    name: "UserPortfolio",
+    setup() {
+    },
+    component: {
+        PlanList,
+    },
+    components: { PlanList }
+}
+</script>

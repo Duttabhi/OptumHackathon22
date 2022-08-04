@@ -4,12 +4,18 @@ import LoginPage from '../components/LoginPage'
 import SignUp from '../components/SignUp'
 import AboutSection from '../components/AboutSection'
 import ContactSection from '../components/ContactSection'
+import UserHome from '../components/UserHome'
 const routes =[
     {
         path:'/login',
         name:'login',
         component: LoginPage
     },
+    {
+        path:'/user',
+        name:'user',
+        component: UserHome
+    },    
     {
         path:'/signup',
         name:'signup',

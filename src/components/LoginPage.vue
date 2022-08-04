@@ -7,7 +7,7 @@
         <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Login Form</h3>
-            <form>
+            <form action="user" @submit="onSubmit">
 
               <div class="row">
                 <div class="col-2"></div>
@@ -46,11 +46,19 @@ import AppHeader from '../components/AppHeader.vue'
 
     export default {
         data() {
-            return {}
+            return {
+                hsid: '',
+            }
         },
         components:{
             AppHeader,
+        },
+        methods : {
+            onSubmit(){
+                
+            }
         }
+
     }
 </script>
 

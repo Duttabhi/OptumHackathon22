@@ -7,7 +7,7 @@
         <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
-            <form>
+            <form action="user">
 
               <div class="row">
                 <div class="col-md-6 mb-4">
@@ -43,7 +43,7 @@
 
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
-                      value="option1" checked />
+                      value="option1" />
                     <label class="form-check-label" for="femaleGender">Female</label>
                   </div>
 
