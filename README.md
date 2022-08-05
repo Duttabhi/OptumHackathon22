@@ -14,6 +14,10 @@ If the user is not a member he needs to fill up the signup form. Because, atleas
 * This helps the insurance company to help the member improve his lifestyle and live healthier life.
 * Different associated companies, doctors, wellness program team will get benefitted as the dashboard will suggest enrollment to different courses, programs, etc.
 
+## Video
+
+![demo](https://github.com/Duttabhi/OptumHackathon22/blob/main/video1773135426.mp4)
+
 ## Project setup
 ```
 npm install
