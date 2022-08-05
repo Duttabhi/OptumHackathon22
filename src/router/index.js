@@ -5,6 +5,7 @@ import SignUp from '../components/SignUp'
 import AboutSection from '../components/AboutSection'
 import ContactSection from '../components/ContactSection'
 import UserHome from '../components/UserHome'
+import UserRegister from '../components/UserRegister'
 const routes =[
     {
         path:'/login',
@@ -15,6 +16,12 @@ const routes =[
         path:'/user',
         name:'user',
         component: UserHome
+    },
+    {
+        path: '/register',
+        name:'register',
+        component: UserRegister,
+        props: true
     },    
     {
         path:'/signup',

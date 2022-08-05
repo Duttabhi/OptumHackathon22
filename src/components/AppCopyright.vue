@@ -2,7 +2,7 @@
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
             <div class="container">
-                <p class="lead mb-0">
+                <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" class="lead mb-0">
                     &copy; AI Hustlers 2022
                 </p>
             </div>

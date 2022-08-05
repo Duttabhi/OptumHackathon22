@@ -3031,8 +3031,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #FF6600;
+  border-color: #FF6600;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4088,7 +4088,7 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 0.125rem solid transparent;
+  border: 0.125rem solid #FF612B;
   border-radius: 0.5rem;
   transition: box-shadow 0.15s ease-in-out;
 }
@@ -7808,7 +7808,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #FFFFFF;
 }
 
 .bg-secondary {
@@ -11328,14 +11328,14 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  color: #FF6600;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff;
+  color: #FF6600;
 }
 
 .btn-xl {
@@ -11473,7 +11473,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #FF612B;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;

@@ -1,19 +1,24 @@
 <template>
        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <header style = "padding-top: calc(4rem + 0px);" class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-4" src="../assets/img/doctor.svg" alt="img" />
+                <video width="50%" height="" preload="true" autoplay loop muted>
+                    <source src="../assets/img/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>&nbsp;&nbsp;&nbsp;</p>
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Healthcare Redefined</h1>
+                <h3 style="color:#FF6600" class="masthead-heading mb-0">ChronicDiseaseAIRival</h3>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div  class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+                    <div   class="divider-custom-icon"><i class="far fa-circle"></i></div>
+                    <div  class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+                    <div   class="divider-custom-icon"><i class="far fa-circle"></i></div>
+                    <div  class="divider-custom-icon"><i class="fas fa-circle"></i></div>                    
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Pharmacy - Consultancy - Well being</p>
+                <p style="color:#FF6600;" class="masthead-subheading font-weight-light mb-0">AI Buddy to help fight the disease with you!</p>
             </div>
         </header>
 </template>

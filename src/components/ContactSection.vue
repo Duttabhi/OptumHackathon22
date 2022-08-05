@@ -1,14 +1,17 @@
 <template>
-            <!-- Contact Section-->
+        <AppHeader></AppHeader>
+        <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Write Us</h2>
+                <h2 style="color:#FF612B" class="page-section-heading text-center text-uppercase  mb-0">Write Us</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div  class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+                    <div   class="divider-custom-icon"><i class="far fa-circle"></i></div>
+                    <div  class="divider-custom-icon"><i class="fas fa-circle"></i></div>
+                    <div   class="divider-custom-icon"><i class="far fa-circle"></i></div>
+                    <div  class="divider-custom-icon"><i class="fas fa-circle"></i></div>
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
@@ -72,12 +75,23 @@
                 </div>
             </div>
         </section>
+        <AppFooter :msgFooter="phytnessfooter"></AppFooter>
+        <AppCopyright :msgCopyright="phytnesscopyright"></AppCopyright>  
 </template>
 
 <script>
+import AppHeader from '../components/AppHeader.vue'
+import AppFooter from '../components/AppFooter.vue'
+import AppCopyright from '../components/AppCopyright.vue'
 export default {
     name: 'ContactSection',
     props:{ 
+
+    },
+    components:{
+        AppHeader,
+        AppFooter,
+        AppCopyright,
     }
 }
 </script>
