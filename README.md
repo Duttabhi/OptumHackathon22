@@ -16,7 +16,13 @@ If the user is not a member he needs to fill up the signup form. Because, atleas
 
 ## Video
 
-![demo](https://github.com/Duttabhi/OptumHackathon22/blob/main/video/demo.gif)
+![demo](https://github.com/Duttabhi/OptumHackathon22/blob/main/video/demovideo.mp4)
+
+
+https://user-images.githubusercontent.com/35317861/183225140-ca170900-19bc-46e6-8bcb-b5581dfb0430.mp4
+
+
+
 
 ## Project setup
 ```
